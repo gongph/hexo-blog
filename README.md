@@ -10,12 +10,23 @@ git clone git@github.com:gongph/hexo-blog.git
 
 
 ### install
+
+global install hexo-cli
 ```
-1. npm install hexo-cli -g
-2. npm install
+npm install hexo-cli -g
 ```
 
-### start service
+local install modules
 ```
-hexo server
+npm install 
+```
+
+### deploy
+```
+hexo deploy
+```
+
+### start
+```
+hexo server // http://localhost:4000/
 ```
